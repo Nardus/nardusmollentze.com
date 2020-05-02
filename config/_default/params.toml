@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Nardus Mollentze | Infectious disease ecologist, MRC -- University of Glasgow Centre for Virus Research"
+description = "Nardus Mollentze | Viral ecologist, MRC - University of Glasgow Centre for Virus Research"
 
 
 ############################
