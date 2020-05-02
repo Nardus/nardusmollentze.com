@@ -70,4 +70,5 @@ projects: []
 slides: ""
 ---
 
-<div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1016/j.coviro.2014.07.004" data-hide-no-mentions="true" data-hide-less-than="0" class="altmetric-embed"></div>
+{{< altmetric "10.1016/j.coviro.2014.07.004" >}}
+

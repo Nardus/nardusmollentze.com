@@ -73,4 +73,4 @@ projects: []
 slides: ""
 ---
 
-<div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1101/2020.04.09.033928" data-hide-no-mentions="true" data-hide-less-than="0" class="altmetric-embed"></div>
+{{< altmetric "10.1101/2020.04.09.033928" >}}

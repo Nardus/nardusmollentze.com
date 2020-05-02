@@ -68,4 +68,4 @@ projects: []
 slides: ""
 ---
 
-<div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1016/j.tim.2018.07.001" data-hide-no-mentions="true" data-hide-less-than="0" class="altmetric-embed"></div>
+{{< altmetric "10.1016/j.tim.2018.07.001" >}}
