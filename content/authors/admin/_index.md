@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Nardus Mollentze
 
 # Username (this should match the folder name)
 authors:
@@ -10,50 +10,57 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Viral ecologist | Postdoc
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: MRC - University of Glasgow Centre for Virus Research
+  url: "https://www.gla.ac.uk/researchinstitutes/iii/cvr/"
+
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Disease ecologist | Postdoc at the MRC - University of Glasgow Centre for Virus Research
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Cross-species transmission
+- Host shifts
+- Virus evolution
+- Outbreak forecasting
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Ecology and Environmental Biology
+    institution: University of Glasgow
+    year: 2018
+  - course: MSc in Microbiology
+    institution: University of Pretoria
+    year: 2013
+  - course: BSc (hons) in Microbiology
+    institution: University of Pretoria
+    year: 2010
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:nardus.mollentze@glasgow.ac.uk'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/NardusMollentze
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-2452-6416
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.co.uk/citations?user=u78--GoAAAAJ
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Nardus_Mollentze
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/Nardus
+  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -70,6 +77,4 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am a viral ecologist studying the dynamics of cross-species transmission and host shifts. Much of my work takes a comparative approach, aiming to discover generalisable patterns which may help us to anticipate and prepare for future outbreaks of infectious disease. I also often use rabies virus as a model system, given it's wide host range, frequent cross-species transmission, and the consequences of these events for public and animal health. As part of my current postdoc with [Daniel Streicker](https://streickergroup.wordpress.com/) I am leading efforts to determine the most appropriate sampling strategies for discovering unknown viral threats, designing methods to triage newly discovered viruses for further study, and developing spatial models to predict rabies spill-over events.
