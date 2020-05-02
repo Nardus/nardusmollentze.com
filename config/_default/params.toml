@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Nardus Mollentze | Infectious disease ecologist, MRC - University of Glasgow Centre for Virus Research"
+description = "Nardus Mollentze | Infectious disease ecologist, MRC -- University of Glasgow Centre for Virus Research"
 
 
 ############################
@@ -87,7 +87,7 @@ email = "nardus.mollentze@glasgow.ac.uk"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "MRC-University of Glasgow Centre for Virus Research, 464 Bearsden Rd", city = "Glasgow", region = "Scotland", postcode = "G61 1QH", country = "United Kingdom", country_code = "UK"}
+address = {street = "MRC - University of Glasgow Centre for Virus Research, 464 Bearsden Rd", city = "Glasgow", region = "Scotland", postcode = "G61 1QH", country = "United Kingdom", country_code = "UK"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
