@@ -17,7 +17,7 @@ publishDate: "2014-07-24T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Current Opinion in Virology*, 8: 68-–72"
+publication: "*Current Opinion in Virology*, 8: 68–72"
 publication_short: "Current Opinion in Virology"
 
 abstract: Despite its ability to infect all mammals, Rabies virus persists in numerous species-specific cycles that rarely sustain transmission in alternative species. The determinants of these species-associations and the adaptive significance of genetic divergence between host-associated viruses are poorly understood. One explanation is that epidemiological separation between reservoirs causes neutral genetic differentiation. Indeed, recent studies attributed host shifts to ecological factors and selection of ‘preadapted’ viral variants from the existing viral community. However, phenotypic differences between isolates and broad scale comparative and molecular evolutionary analyses indicate multiple barriers that Rabies virus must overcome through adaptation. This review assesses various lines of evidence and proposes a synthetic hypothesis for the respective roles of ecology and evolution in Rabies virus host shifts.
