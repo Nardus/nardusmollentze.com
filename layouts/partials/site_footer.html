@@ -1,20 +1,7 @@
 <footer class="site-footer">
-    {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
-    
-    <p class="powered-by">
-      {{ with site.GetPage "privacy.md" }}
-        {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
-      {{ end }}
-      {{ with site.GetPage "terms.md" }}
-        {{ if site.GetPage "privacy.md" }} &middot; {{ end }}
-        {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
-      {{ end }}
-    </p>
-    {{ end }}
-    
-    
     <div class="row" style="display:flex; justify-content:space-evenly;">
       
+      <div class="col-sm-"></div>
       <div class="col-sm-"></div>
       <div class="col-sm-"></div>
       
@@ -30,12 +17,30 @@
         <img border="0" alt="Centre for Virus Research" src="{{ "img/logos/cvr_logo.png" | absURL }}" width="140" height="50">
       </a>
       
-      <div class="col-sm-"></div>
-      <div class="col-sm-"></div>
+      <a class="col-sm-" href="https://www.viralemergence.org/">
+        <img border="0" alt="Verena Consortium" src="{{ "img/logos/verena_logo.jpg" | absURL }}" width="140" height="50">
+      </a>
       
+      <div class="col-sm-"></div>
+      <div class="col-sm-"></div>
+      <div class="col-sm-"></div>
     </div>
     
     &nbsp;
+    
+    {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
+    
+    <p class="powered-by">
+      {{ with site.GetPage "privacy.md" }}
+        {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+      {{ end }}
+      {{ with site.GetPage "terms.md" }}
+        {{ if site.GetPage "privacy.md" }} &middot; {{ end }}
+        {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+      {{ end }}
+    </p>
+    {{ end }}
+    
     
     <p class="powered-by">
         {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
@@ -58,9 +63,6 @@
         </span>
         {{ end }}
       </p>
-    
-      <!--Altmetric script:-->
-      <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
       
   </footer>
   
