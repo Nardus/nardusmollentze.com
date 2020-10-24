@@ -1,0 +1,71 @@
+/* Dataset container size */
+.dataset-container {
+    max-width: 80%;
+    padding: 0 20px 0 20px;
+    margin: 0 auto 0 auto;
+  }
+
+
+  
+/* Fix visibility in selected rows (this is being overriden by striping, 
+  so make stripe colours transparent */
+
+/*  - Light*/
+table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > th {
+  background-color: rgba($black, .05);
+}
+
+
+/*  - Dark*/
+.dark table {
+  background-color: rgb(50, 52, 64);
+  color: white;
+}
+
+.dark table > tbody > tr:nth-child(odd) > td,
+.dark table > tbody > tr:nth-child(odd) > th {
+  background-color: rgba(40, 40, 40, 0.7);
+}
+
+/*   - Table Hover - must be applied after colour changes above */
+table > tbody > tr:hover > td,
+table > tbody > tr:hover > th {
+  background-color: #e5e5e5;
+}
+
+.dark table > tbody > tr:hover > td,
+.dark table > tbody > tr:hover > th {
+  background-color: rgb(60, 62, 74);
+}
+
+
+/* Datatables - make control elements smaller */
+.dataTables_info {
+  font-size: 0.7em;
+}
+
+.search {
+  font-size: 0.93em;
+}
+
+.clearButton, 
+.nameButton,
+.countButton {
+  line-height: 1.22em;
+}
+
+.paginate_button {
+  font-size: 0.7em;
+}
+
+
+/* Datatables - fix search pane */
+.table {
+  display: table;
+}
+
+.badge-pill {
+  margin-left: 1.5em;
+  margin-right: 0.1em;
+}

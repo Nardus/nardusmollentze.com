@@ -14,19 +14,39 @@
   weight = 2
 
 [[main]]
-  name = "Talks"
-  url = "#talks"
-  weight = 3
-
-[[main]]
   name = "Media"
   url = "#media"
-  weight = 4
+  weight = 3
 
 [[main]]
   name = "Contact"
   url = "#contact"
   weight = 60
+
+
+# Spacer:
+[[main]]
+  name = ""
+  pre = "<i style='padding: 10px;'></i>"
+  weight = 100
+  
+[[main]]
+  name = "Datasets"
+  weight = 101
+
+[[main]]
+  parent = "Datasets"
+  name = "Virus reservoirs"
+  url = "dataset/virus_reservoirs"
+  weight = 1
+  
+[[main]]
+  parent = "Datasets"
+  name = "Rabies disease progression"
+  url = "dataset/rabies_disease_progression"
+  weight = 1
+
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

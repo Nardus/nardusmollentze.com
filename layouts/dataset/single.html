@@ -1,0 +1,155 @@
+{{- define "main" -}}
+
+{{ $page := . }}
+
+<div class="pub">
+  
+  
+  <div class="dataset-container pt-3">
+    <h1>{{ $.Title }}</h1>
+  
+    {{ with $page.Params.subtitle }}
+      <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+    {{end}}
+  
+    {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+    
+    {{ if .Params.raw_data }}
+      <div class="btn-links mb-3">
+        <a class="btn btn-outline-primary my-1" href="{{ .Params.raw_data }}" target="_blank" rel="noopener">Raw data</a>
+      </div>
+    {{ end }}
+    
+    {{ if .Params.abstract }}
+    <p class="pub-abstract">{{ .Params.abstract | markdownify }}</p>
+    {{ end }}
+    
+    <!-- Markdown content-->
+    <div class="article-style">{{ .Content }}</div>
+    
+    <!--iframe content (e.g. shiny apps)-->
+    {{ if .Params.iframe_link }}
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.16/iframeResizer.min.js"></script>
+      
+      <style>
+        iframe {min-width: 100%;}
+      </style>
+      
+      <div style="padding-top: 30px; padding-bottom: 30px; background-color: white;">
+        <iframe id="app_iframe" src={{ .Params.iframe_link }} scrolling="no" frameborder="no"></iframe>
+      </div>
+      
+      <script>iFrameResize({});</script>
+    {{ end }}
+    
+    <!--CSV content-->
+    {{ if .Params.csv_file }}
+      <div class="space-below"></div>
+      
+      <!--Render csv as html table-->
+      <table id="rendered_table" class="table-bordered" style="width:100%;">
+        <thead>
+          <tr>
+            {{ range $.Params.col_names }}
+              <th>{{ . | markdownify }}</th>
+            {{ end }}
+          </tr>
+        </thead>
+        <tbody>
+          {{ $url := .Params.csv_file }}
+          {{ $sep := "," }}
+          {{ range $i, $r := getCSV $sep $url }}
+            <tr>
+              {{ range $j, $c := $.Params.col_names }}
+                <td>{{ index $r $j | markdownify }}</td>
+              {{ end }}
+            </tr>
+          {{ end }}
+        </tbody>
+        <tfoot>
+          <tr>
+            {{ range $.Params.col_names }}
+              <th>{{ . | markdownify }}</th>
+            {{ end }}
+          </tr>
+        </tfoot>
+      </table> 
+        
+      <!--Datatable options-->
+      
+      <script>
+        $(document).ready( function () {
+            // Render search boxes below each column (replacing footer heading)
+            $('#rendered_table tfoot th').each( function () {
+              var title = $(this).text();
+              $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+            } );
+            
+            // General options
+            var table = $('#rendered_table').DataTable( {
+              searchPanes:{
+                columns: {{ .Params.filter_columns }},
+                viewTotal: true,
+                cascadePanes: true,
+                layout: "columns-4",
+                
+                dtOpts: {
+                  dom:"ti",
+                  info: true,
+                  select: {
+                    style: 'multi',
+                  },
+                  scrollY: "120px"
+                }
+              },
+              language:{
+                searchPanes:{
+                  title: 'Filters (%d)',
+                  count: '{total}',
+                  countFiltered: '{shown} / {total}'
+                },
+              },
+              buttons: [
+                'copy', 'excel', 'csv'
+              ],
+              dom: 'PrtipB',
+              deferRender:    true,
+              scrollCollapse: true,
+              pageLength: 15,
+              responsive: true
+            });
+            
+            // Column search
+            table.columns().every( function () {
+              var that = this;
+              
+              $( 'input', this.footer() ).on( 'keyup change', function () {
+                if ( that.search() !== this.value ) {
+                  that
+                    .search( this.value )
+                    .draw();
+                }
+              } );
+            } );
+        } );
+      </script>
+      
+    {{ end }}
+    
+    
+    <!--Footer - link to related publications-->
+    {{ if .Params.link_publications }}
+      <div class="article-widget content-widget-hr">
+        <h3>Associated publications</h3>
+        <ul>
+        {{ range $.Params.link_publications }}
+          <li>{{ . | markdownify }}</li>
+        {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+
+  </div>
+</div>
+
+{{- end -}}
