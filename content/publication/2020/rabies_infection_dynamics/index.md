@@ -44,7 +44,7 @@ featured: true
 #   url: ""
 url_pdf: https://www.pnas.org/content/early/2020/10/27/2006778117.full.pdf
 url_code: https://doi.org/10.5281/zenodo.3746609
-url_dataset: https://doi.org/10.5281/zenodo.3746609
+url_dataset: dataset/rabies_disease_progression/
 url_poster: ''
 url_project: ''
 url_slides: ''

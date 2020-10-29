@@ -40,7 +40,7 @@ featured: true
 #   url: ""
 url_pdf: https://www.pnas.org/content/pnas/117/17/9423.full.pdf
 url_code: https://doi.org/10.5281/zenodo.3516613
-url_dataset: https://doi.org/10.5281/zenodo.3516613
+url_dataset: dataset/virus_reservoirs/
 url_poster: ''
 url_project: ''
 url_slides: ''
