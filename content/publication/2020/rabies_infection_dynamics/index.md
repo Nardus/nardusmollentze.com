@@ -7,8 +7,8 @@ authors:
 - Katie Hampson
 - Roman Biek
 
-date: "2020-04-10"
-doi: "10.1101/2020.04.09.033928"
+date: "2020-10-29"
+doi: "10.1073/pnas.2006778117"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-04-10T00:00:00Z"
@@ -42,9 +42,9 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.biorxiv.org/content/10.1101/2020.04.09.033928v1.full.pdf
-url_code: https://zenodo.org/record/3746609
-url_dataset: https://zenodo.org/record/3746609
+url_pdf: https://www.pnas.org/content/early/2020/10/27/2006778117.full.pdf
+url_code: https://doi.org/10.5281/zenodo.3746609
+url_dataset: https://doi.org/10.5281/zenodo.3746609
 url_poster: ''
 url_project: ''
 url_slides: ''
@@ -73,4 +73,4 @@ projects: []
 slides: ""
 ---
 
-{{< altmetric "10.1101/2020.04.09.033928" >}}
+{{< altmetric "10.1073/pnas.2006778117" >}}
