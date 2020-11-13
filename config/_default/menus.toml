@@ -49,7 +49,7 @@
 
 [[main]]
   parent = "Datasets"
-  name = "Zoontic rank"
+  name = "Zoonotic rank"
   url = "dataset/zoonotic_rank"
   weight = 3
 
