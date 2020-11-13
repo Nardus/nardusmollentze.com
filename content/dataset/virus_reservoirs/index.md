@@ -29,8 +29,11 @@ summary: "Currently accepted reservoir orders for viruses infecting mammals and 
 # A data file to display (optional):
 #   Note that the *number* of columns named determines how many columns are loaded
 #   "filter_columns" specifies the indices of columns which should be present in the "filter records" pane, starting at 0
+#   "order_column" specifies the index of a single column to order by
+#   "order_direction" can be "asc" or "desc"
 csv_file: "/csv/virus_reservoirs.csv"
 col_names: [Species, Family, Genus, "Reservoir order", "Vector-borne", "Zoonotic", "Reference (reservoir)", "Reference (vector)"]
 filter_columns: [1,2,3,5]
-
+order_column: 0
+order_direction: "asc"
 ---

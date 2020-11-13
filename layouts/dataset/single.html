@@ -16,7 +16,7 @@
     
     {{ if .Params.raw_data }}
       <div class="btn-links mb-3">
-        <a class="btn btn-outline-primary my-1" href="{{ .Params.raw_data }}" target="_blank" rel="noopener">Raw data</a>
+        <a class="btn btn-outline-primary my-1" href="{{ .Params.raw_data }}" target="_blank" rel="noopener">Code & raw data</a>
       </div>
     {{ end }}
     
@@ -116,7 +116,8 @@
               deferRender:    true,
               scrollCollapse: true,
               pageLength: 15,
-              responsive: true
+              responsive: true,
+              order: [[ {{ .Params.order_column }}, {{ .Params.order_direction }} ]]
             });
             
             // Column search

@@ -36,16 +36,22 @@
 
 [[main]]
   parent = "Datasets"
-  name = "Virus reservoirs"
-  url = "dataset/virus_reservoirs"
-  weight = 1
-  
-[[main]]
-  parent = "Datasets"
   name = "Rabies disease progression"
   url = "dataset/rabies_disease_progression"
   weight = 1
 
+
+[[main]]
+  parent = "Datasets"
+  name = "Virus reservoirs"
+  url = "dataset/virus_reservoirs"
+  weight = 2
+
+[[main]]
+  parent = "Datasets"
+  name = "Zoontic rank"
+  url = "dataset/zoonotic_rank"
+  weight = 3
 
 
 # Link to a PDF of your resume/CV from the menu.
