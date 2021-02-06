@@ -1,3 +1,49 @@
+/* COMPACT ABOUT WIDGET:*/
+.wg-about-compact {
+  width: 100%;
+  color: #f8f8f2;
+}
+
+.wg-about-compact .avatar {
+  width: 135px;
+  height: 135px;
+}
+
+.wg-about-compact .see-all {
+  margin-top: 0rem;
+  text-transform: uppercase;
+}
+
+
+/*OTHER: */
+.avatar-circle {
+  border-radius: 10%;
+}
+
+.wg-recent-publications .article-banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+}
+
+.featurette-icon {
+  font-size: 2rem;
+}
+
+.featurette .card {
+  padding: 10px 5px 10px 5px;
+  width: 100%;
+  height: 8rem;
+}
+
+.wg-datasets .section-heading {
+  margin-bottom: 1em;
+}
+
+
+/* DATA PAGES: */
 /* Dataset container size */
 .dataset-container {
     max-width: 80%;
@@ -6,7 +52,6 @@
   }
 
 
-  
 /* Fix visibility in selected rows (this is being overriden by striping, 
   so make stripe colours transparent */
 

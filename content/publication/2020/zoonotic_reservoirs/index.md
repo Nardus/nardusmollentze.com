@@ -1,5 +1,5 @@
 ---
-title: "Viral Zoonotic Risk Is Homogenous among Taxonomic Orders of Mammalian and Avian Reservoir Hosts"
+title: "Viral zoonotic risk is homogenous among taxonomic orders of mammalian and avian reservoir hosts"
 authors:
 - Nardus Mollentze
 - Daniel Streicker

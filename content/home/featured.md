@@ -3,12 +3,12 @@
 # This section displays publications from `content/publication/` which have
 # `featured = true` in their front matter.
 
-widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "recent_publications"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 2  # Order that this section will appear.
 
-title = "Featured Publications"
+title = "Recent Publications"
 subtitle = ""
 
 [content]
@@ -22,7 +22,7 @@ subtitle = ""
   order = "desc"
 
   # Show a "See all pages" link underneath the featured content?
-  link_to_archive = false
+  link_to_archive = true
 
   # Filter posts by a taxonomy term.
   [content.filters]
@@ -38,6 +38,10 @@ subtitle = ""
   #   3 = Card
   #   4 = Citation (publication only)
   view = 3
+
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "20px", "0"]
   
 [design.background]
   # Apply a background color, gradient, or image.

@@ -4,54 +4,31 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
-  url = "#"
-  weight = 1
+  name = "About"
+  url = "about/"
+  weight = 2
 
 [[main]]
   name = "Publications"
-  url = "#featured"
+  url = "publication"
   weight = 2
 
 [[main]]
-  name = "Media"
-  url = "#media"
+  name = "Datasets"
+  url = "dataset"
   weight = 3
+
+
+[[main]]
+  name = "Media coverage"
+  url = "media_coverage"
+  weight = 4
 
 [[main]]
   name = "Contact"
-  url = "#contact"
+  url = "about/#contact"
   weight = 60
 
-
-# Spacer:
-[[main]]
-  name = ""
-  pre = "<i style='padding: 10px;'></i>"
-  weight = 100
-  
-[[main]]
-  name = "Datasets"
-  weight = 101
-
-[[main]]
-  parent = "Datasets"
-  name = "Rabies disease progression"
-  url = "dataset/rabies_disease_progression"
-  weight = 1
-
-
-[[main]]
-  parent = "Datasets"
-  name = "Virus reservoirs"
-  url = "dataset/virus_reservoirs"
-  weight = 2
-
-[[main]]
-  parent = "Datasets"
-  name = "Zoonotic rank"
-  url = "dataset/zoonotic_rank"
-  weight = 3
 
 
 # Link to a PDF of your resume/CV from the menu.
