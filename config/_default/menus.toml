@@ -10,18 +10,18 @@
 
 [[main]]
   name = "Publications"
-  url = "publication"
+  url = "publication/"
   weight = 2
 
 [[main]]
   name = "Datasets"
-  url = "dataset"
+  url = "dataset/"
   weight = 3
 
 
 [[main]]
   name = "Media coverage"
-  url = "media_coverage"
+  url = "media_coverage/"
   weight = 4
 
 [[main]]
