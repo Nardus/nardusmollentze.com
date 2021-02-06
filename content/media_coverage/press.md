@@ -1,5 +1,5 @@
 +++
-widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "media"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 2  # Order that this section will appear.
@@ -24,6 +24,7 @@ date_format = "Jan 2006"
   url = "https://www.lemonde.fr/planete/video/2020/05/30/coronavirus-ebola-rage-pourquoi-les-chauves-souris-sont-a-l-origine-de-tant-de-virus_6041272_3244.html"
   date_start = "2020-05-30"
   description = ""
+  youtube_id = "0XFnCj5rVho"
 
 
 [[item]]
@@ -53,5 +54,3 @@ date_format = "Jan 2006"
   description = ""
 
 +++
-
-{{< youtube 0XFnCj5rVho >}}
