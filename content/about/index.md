@@ -1,5 +1,5 @@
 ---
 title: "About"  # Add a page title.
-summary: ""
+summary: "About / contact details"
 type: "widget_page"
 ---

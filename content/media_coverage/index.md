@@ -1,5 +1,5 @@
 ---
 title: "Media coverage"
-summary: ""
+summary: "Media coverage of my work"
 type: "widget_page"
 ---
