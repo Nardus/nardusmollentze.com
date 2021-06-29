@@ -69,7 +69,7 @@
         <tfoot>
           <tr>
             {{ range $.Params.col_names }}
-              <th>{{ . | markdownify }}</th>
+              <th class="filterbox">{{ . | markdownify }}</th>
             {{ end }}
           </tr>
         </tfoot>

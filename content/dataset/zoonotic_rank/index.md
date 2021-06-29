@@ -21,7 +21,7 @@ projects: []
 raw_data: https://github.com/nardus/zoonotic_rank
 
 # Brief description:
-abstract: "Virus species ranked by their predicted probabilities of being capable of human infection. Derived from Table S1 of [Mollentze, Babayan & Streicker (2020)](https://doi.org/10.1101/2020.11.12.379917). 
+abstract: "Virus species ranked by their predicted probabilities of being capable of human infection. Ranking was performed using a [genome composition-based machine learning model](https://github.com/nardus/zoonotic_rank) using a representative genome for each species. Derived from Table S1 of [Mollentze, Babayan & Streicker (2020)](https://doi.org/10.1101/2020.11.12.379917). This table includes both training and holdout viruses (see \"current status\" column).
 
 
 ___Note that this work has not undergone peer-review yet, and should not be regarded as established information or results.___"
@@ -36,8 +36,8 @@ summary: "Viruses ranked by their predicted probabilities of human infection."
 #   "order_column" specifies the index of a single column to order by
 #   "order_direction" can be "asc" or "desc"
 csv_file: "/csv/combined_virus_ranks_rounded.csv"
-col_names: [Species, Family, Current status, Predicted probability, 95% Confidence interval, Research priority]
-filter_columns: [1,2,5]
-order_column: 3
+col_names: [Species, Family, Current status, Accession, Predicted probability, Confidence interval, Zoonotic potential]
+filter_columns: [1,2,6]
+order_column: 4
 order_direction: "desc"
 ---
