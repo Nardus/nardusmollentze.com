@@ -61,12 +61,31 @@
                     color: white; 
                     text-shadow: 0 0 0.5em black
                   }
+                  
+                  div {
+                    position: fixed;
+                    bottom: 0;
+                    right: 0;
+                    height: auto;
+                    width: 100%;
+                    text-align: center;
+                    font: 12px/1.5 sans-serif;
+                    color: white;
+                    background-color: grey;
+                  }
+                  
                 </style>
                 
                 <a href=https://www.youtube-nocookie.com/embed/{{.}}?autoplay=1>
-                  <img src=https://img.youtube.com/vi/{{.}}/hqdefault.jpg alt='Embedded YouTube video'>
-                  <span> &#x25BA; </span>
-                </a>"
+                  <img src=https://img.youtube.com/vi/{{.}}/hqdefault.jpg alt='Embedded youtube video'>
+                  <span> &#x25BA;</span>
+                </a>
+                <div>
+                  Content hosted by a third party (www.youtube.com). Clicking play 
+                  will load the embedded player, see 
+                  <a href=/privacy/ target=_blank rel=noopener>privacy policy</a> 
+                  for details.
+                "
               
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
