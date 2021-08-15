@@ -30,9 +30,12 @@
 
 
 /* Badges on article pages - need a white background in dark mode */
-.dark .altmetric-box {
+.altmetric-box {
   display: flex; 
   justify-content: space-around;
+}
+
+.dark .altmetric-box {
   color: black;
   background-color: #fff;
   padding-top: 20px;
