@@ -14,6 +14,31 @@
   text-transform: uppercase;
 }
 
+/* Article list */
+.media body .see-all {
+  margin-top: 0rem;
+  text-transform: uppercase;
+}
+
+.stream-meta .article-metadata {
+  margin-bottom: 0px;
+}
+
+.article-style {
+  margin-bottom: 10px;
+}
+
+
+/* Badges on article pages - need a white background in dark mode */
+.dark .altmetric-box {
+  display: flex; 
+  justify-content: space-around;
+  color: black;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+}
 
 /*OTHER: */
 .avatar-circle {
@@ -40,6 +65,23 @@
 
 .wg-datasets .section-heading {
   margin-bottom: 1em;
+}
+
+
+.logo-row {
+  display: flex; 
+  justify-content: space-evenly;
+}
+
+.logo-group {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #fff;
+}
+
+.middle-logo {
+  padding-left: 12px;
+  padding-right: 0px;
 }
 
 
