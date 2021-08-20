@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   title = "The first step in the success or failure of emerging pathogens"
   url = "https://doi.org/10.1073/pnas.2020709117"
   date_start = "2020-11-13"
-  description = "Commentary piece by Ryan Easterday on our [meta-analysis of cross-species index infections](../publication/2020/rabies_infection_dynamics)."
+  description = "Commentary on our [meta-analysis of cross-species index infections](../publication/2020/rabies_infection_dynamics)."
 
 
 [[item]]

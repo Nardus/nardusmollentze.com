@@ -37,11 +37,11 @@ date_format = "Jan 2006"
 
 
 [[item]]
-  organization = "IFLScience"
+  organization = "The Economist"
   organization_url = ""
-  title = "Not just bats – All sorts of animals harbor viruses that infect humans"
-  url = "https://www.iflscience.com/plants-and-animals/not-just-bats-all-sorts-of-animals-harbor-viruses-that-infect-humans/"
-  date_start = "2020-04-14"
+  title = "Bats spread viruses — but they are no worse in this respect than other species"
+  url = "https://www.economist.com/science-and-technology/2020/04/18/bats-spread-viruses"
+  date_start = "2020-04-18"
   description = ""
 
 
