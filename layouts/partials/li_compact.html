@@ -64,10 +64,13 @@
     {{ with $summary }}
       <div class="article-style">
         {{ . }}
-        <a href="{{$link}}" {{ $target | safeHTMLAttr }} class="see-all">
-          More
-          <i class="fas fa-angle-right"></i>
-        </a>
+        
+        {{if eq $item.Type "publication" }}
+          <a href="{{$link}}" {{ $target | safeHTMLAttr }} class="see-all">
+            More
+            <i class="fas fa-angle-right"></i>
+          </a>
+        {{ end }}
       </div>
     {{ end }}
     

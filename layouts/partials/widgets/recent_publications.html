@@ -65,6 +65,8 @@
         {{ partial "li_card" . }}
       {{ else if eq $st.Params.design.view 4 | and (eq $items_type "publication") }}
         {{ partial "li_citation" . }}
+      {{ else if eq $st.Params.design.view 5 }}
+        {{ partial "li_card_no_authors" . }}
       {{ else }}
         {{ partial "li_compact" . }}
       {{ end }}
