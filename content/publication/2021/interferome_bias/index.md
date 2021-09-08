@@ -1,5 +1,5 @@
 ---
-title: "The ‘antiviral state’ has shaped the CpG composition of the vertebrate interferome to avoid self-targeting"
+title: "The antiviral state has shaped the CpG composition of the vertebrate interferome to avoid self-targeting"
 authors:
 - Andrew Shaw
 - Suzannah Rihn
