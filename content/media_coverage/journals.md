@@ -18,12 +18,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "PLOS Biology"
+  organization_url = ""
+  title = "Less is more: biased loss of CpG dinucleotides strengthens antiviral immunity"
+  url = "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001353"
+  date_start = "2021-09-08"
+  description = "Primer discussing our [interferome composition paper](../publication/2021/interferome_bias/)"
+
+[[item]]
   organization = "PNAS"
   organization_url = ""
   title = "The first step in the success or failure of emerging pathogens"
   url = "https://doi.org/10.1073/pnas.2020709117"
   date_start = "2020-11-13"
-  description = "Commentary on our [meta-analysis of cross-species index infections](../publication/2020/rabies_infection_dynamics)."
+  description = "Commentary on our [meta-analysis of cross-species index infections](../publication/2020/rabies_infection_dynamics/)"
 
 
 [[item]]
@@ -32,6 +40,6 @@ date_format = "Jan 2006"
   title = "Bats are a key source of human viruses — but they’re not special"
   url = "https://www.nature.com/articles/d41586-020-01096-z"
   date_start = "2020-04-14"
-  description = "News coverage of our [zoonotic reservoirs paper](../publication/2020/zoonotic_reservoirs)."
+  description = "News coverage of our [zoonotic reservoirs paper](../publication/2020/zoonotic_reservoirs/)"
 
 +++
