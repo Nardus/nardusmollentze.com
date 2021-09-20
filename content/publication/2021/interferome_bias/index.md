@@ -46,7 +46,7 @@ See also: [Accompanying primer written by Daniel Sauter and Frank Kirchhoff.](ht
 "
 
 # Summary. An optional shortened abstract.
-summary: Antiviral defenses can sense viral RNAs and mediate their destruction. This presents a challenge for host cells since they must destroy viral RNAs whilst sparing the host mRNAs that encode antiviral effectors. Here we show that highly upregulated interferon-stimulated genes (ISGs), which encode antiviral proteins, have distinctive nucleotide compositions. We propose that self-targeting by antiviral effectors has selected for ISG transcripts that occupy a less self-targeted sequence space. Following interferon stimulation, the CpG-targeting antiviral effector ZAP reduces the mRNA abundance of multiple host transcripts, providing a mechanistic explanation for the repression of many (but not all) interferon-repressed genes (IRGs). Notably, IRGs tend to be relatively CpG-rich. In contrast, highly upregulated ISGs tend to be strongly CpG-suppressed. Thus, ZAP is an example of an effector that has not only selected compositional biases in viral genomes but appears to have notably shaped the composition of host transcripts in the vertebrate interferome.
+summary: How do vertebrates stop their sequence-specific antiviral defences from accidentally targetting their own gene transcripts? We show that self-targeting by antiviral effectors - and ZAP in particular - has shaped the composition of host transcripts in the vertebrate interferome. These unique compositional signatures give us a better picture of what viral genomes capable of avoiding sequence-specific host defences defences might look like, an observation we are exploiting in our work to develop genome-based zoonotic risk prediction methods.
 
 tags:
 - interferome

@@ -23,7 +23,7 @@ publication_short: "bioRxiv preprint"
 abstract: Rapid assessment of which animal viruses may be capable of infecting humans is currently intractable, but would allow their prioritization for further investigation and pandemic preparedness. We developed machine learning algorithms that identify candidate zoonoses using evolutionary signals of host range encoded in viral genomes. This reduces lists of hundreds of viruses with uncertain human infectivity to tractable numbers for prioritized research, generalizes to virus families excluded from model training, can distinguish high risk viruses within families that contain a minority of zoonotic species, and could have identified the exceptional risk of SARS-CoV-2 prior to its emergence. Genome-based risk assessment allows identification of high-risk viruses immediately upon discovery, increasing both the feasibility and likelihood of downstream virological and ecological characterization and allowing for evidence-driven virus surveillance.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: We describe machine learning algorithms that identify candidate zoonoses using evolutionary signals of host range encoded in viral genomes. This allows identification of high-risk viruses immediately upon discovery, increasing both the feasibility and likelihood of downstream virological and ecological characterization and allowing for evidence-driven virus surveillance.
 
 tags:
 - zoonoses
