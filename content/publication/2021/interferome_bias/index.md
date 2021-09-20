@@ -46,7 +46,7 @@ See also: [Accompanying primer written by Daniel Sauter and Frank Kirchhoff.](ht
 "
 
 # Summary. An optional shortened abstract.
-summary: How do vertebrates stop their sequence-specific antiviral defences from accidentally targeting their own gene transcripts? We show that self-targeting by antiviral effectors - and ZAP in particular - has shaped the composition of host transcripts in the vertebrate interferome. These unique compositional signatures give us a better picture of what viral genomes capable of avoiding sequence-specific host defences defences might look like, an observation we are exploiting in our work to develop genome-based zoonotic risk prediction methods.
+summary: How do vertebrates stop their sequence-specific antiviral defences from accidentally targeting their own gene transcripts? We show that self-targeting by antiviral effectors - and ZAP in particular - has shaped the composition of host transcripts in the vertebrate interferome. These unique compositional signatures give us a better picture of what viral genomes capable of evading sequence-specific host defences might look like, an observation we are exploiting in our work to develop genome-based zoonotic risk prediction methods.
 
 tags:
 - interferome
