@@ -30,7 +30,7 @@ abstract: We describe a statistical framework for reconstructing the sequence of
 summary: 
 
 tags:
-- rabies
+- rabies virus
 - transmission-tree reconstruction
 - surveillance
 

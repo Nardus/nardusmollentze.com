@@ -26,11 +26,8 @@ summary: Do some reservoir groups (e.g. bats) produce more zoonotic viruses than
 
 tags:
 - zoonoses
-- viruses
 - reservoirs
-- comparative
-- meta-analysis
-- generalized additive model
+- zoonotic risk
 
 
 featured: true

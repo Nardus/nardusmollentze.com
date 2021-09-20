@@ -34,11 +34,8 @@ summary:  Why most cross-species transmissions fail to establish ongoing transmi
 
 tags:
 - cross-species transmission
-- viruses
-- rabies
-- comparative
-- meta-analysis
-- phylogenetic glmm
+- rabies virus
+- reservoirs
 
 
 featured: true

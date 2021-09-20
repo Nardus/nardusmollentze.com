@@ -25,9 +25,6 @@ abstract: A mini review for *Trends in Microbiology*'s "Microbe of the Month" se
 summary: A mini review for *Trends in Microbiology*'s "Microbe of the Month" series, describing the transmission cycle of rabies virus in domestic dogs and highlighting the importance of a One Health approach to control and eliminate human rabies deaths. 
 
 tags:
-- zoonoses
-- viruses
-- rabies
 - public engagement
 - rabies elimination
 

@@ -27,11 +27,8 @@ summary:
 
 tags:
 - cross-species transmission
-- host shifts
-- reservoirs
-- rabies
+- rabies virus
 - evolution
-- review
 
 
 featured: false

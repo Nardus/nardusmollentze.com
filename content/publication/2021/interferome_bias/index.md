@@ -50,7 +50,6 @@ summary: Antiviral defenses can sense viral RNAs and mediate their destruction. 
 
 tags:
 - interferome
-- machine learning
 
 
 featured: true

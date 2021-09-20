@@ -32,9 +32,9 @@ summary:
 
 tags:
 - zoonoses
-- viruses
 - virus discovery
 - vampire bats
+- zoonotic risk
 
 featured: false
 

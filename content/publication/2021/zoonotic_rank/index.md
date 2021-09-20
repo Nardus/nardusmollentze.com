@@ -27,10 +27,9 @@ summary:
 
 tags:
 - zoonoses
-- viruses
-- surveillance
-- pandemic preparedness
-- machine learning
+- interferome
+- virus discovery
+- zoonotic risk
 
 
 featured: false

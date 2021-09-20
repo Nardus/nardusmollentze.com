@@ -28,11 +28,10 @@ abstract: In the resource-poor settings where dog rabies remains endemic, the de
 summary: 
 
 tags:
-- rabies
+- rabies virus
 - phylogeography
 - surveillance
 - rabies elimination
-- zoonoses
 
 
 featured: false
