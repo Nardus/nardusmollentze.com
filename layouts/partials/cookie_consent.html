@@ -22,7 +22,7 @@
       "theme": "classic",
       "content": {
         "message": {{ "This website uses cookies to enable some external content." }},
-        "dismiss": {{ i18n "cookie_dismiss" | default "Got it!" }},
+        "dismiss": {{ "Dismiss" }},
         "link": {{ i18n "cookie_learn" | default "Learn more" }},
         "href": {{ with site.GetPage "privacy.md" }}{{ printf "%s" .RelPermalink }}{{ else }}"https://www.cookiesandyou.com"{{ end }}
       }
