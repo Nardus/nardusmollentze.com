@@ -4,7 +4,7 @@ authors:
 - Nardus Mollentze
 - Simon Babayan
 - Daniel Streicker
-date: "2020-11-12"
+date: "2021-09-28"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-11-11T00:00:00Z"
@@ -21,10 +21,7 @@ projects: []
 raw_data: https://github.com/nardus/zoonotic_rank
 
 # Brief description:
-abstract: "Virus species ranked by their predicted probabilities of being capable of human infection. Ranking was performed using a [genome composition-based machine learning model](https://github.com/nardus/zoonotic_rank) using a representative genome for each species. Derived from Table S1 of [Mollentze, Babayan & Streicker (2020)](https://doi.org/10.1101/2020.11.12.379917). This table includes both training and holdout viruses (see \"current status\" column).
-
-
-___Note that this work has not undergone peer-review yet, and should not be regarded as established information or results.___"
+abstract: "Virus species ranked by their predicted probabilities of being capable of human infection. Ranking was performed using a [genome composition-based machine learning model](https://github.com/nardus/zoonotic_rank) using a representative genome for each species. Derived from Table S1 of [Mollentze, Babayan & Streicker (2021)](https://doi.org/10.1371/journal.pbio.3001390). This table includes both training and holdout viruses (see \"current status\" column)."
 
 
 # Shorter summary for overview pages:
