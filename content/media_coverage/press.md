@@ -18,11 +18,11 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "BBC Science Focus"
+  organization = "Medical News Today"
   organization_url = ""
-  title = "Artificial intelligence could help to predict the next virus to jump from animals to humans"
-  url = "https://www.sciencefocus.com/news/artificial-intelligence-could-help-to-predict-the-next-virus-to-jump-from-animals-to-humans/"
-  date_start = "2021-09-28"
+  title = "AI may help predict the next virus to jump to humans"
+  url = "https://www.medicalnewstoday.com/articles/ai-may-help-predict-the-next-virus-to-jump-to-humans"
+  date_start = "2021-09-29"
   description = ""
 
 
@@ -31,6 +31,15 @@ date_format = "Jan 2006"
   organization_url = ""
   title = "Un modelo de inteligencia artificial predice qué nuevos virus podrían infectarnos"
   url = "https://www.larazon.es/ciencia/20210929/6whce5tj3vhr5ldyqguahxlnim.html"
+  date_start = "2021-09-29"
+  description = ""
+
+
+[[item]]
+  organization = "BBC Science Focus"
+  organization_url = ""
+  title = "Artificial intelligence could help to predict the next virus to jump from animals to humans"
+  url = "https://www.sciencefocus.com/news/artificial-intelligence-could-help-to-predict-the-next-virus-to-jump-from-animals-to-humans/"
   date_start = "2021-09-28"
   description = ""
 
