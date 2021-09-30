@@ -1,5 +1,5 @@
 +++
-widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "media"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
@@ -20,10 +20,20 @@ date_format = "Jan 2006"
 [[item]]
   organization = "PLOS Biology"
   organization_url = ""
+  title = "Genomic signatures for predicting the zoonotic potential of novel viruses"
+  url = "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001403"
+  date_start = "2021-09-29"
+  description = ""
+
+
+[[item]]
+  organization = "PLOS Biology"
+  organization_url = ""
   title = "Less is more: biased loss of CpG dinucleotides strengthens antiviral immunity"
   url = "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001353"
   date_start = "2021-09-08"
-  description = "Primer discussing our [interferome composition paper](../publication/2021/interferome_bias/)"
+  description = ""
+
 
 [[item]]
   organization = "PNAS"
@@ -31,7 +41,7 @@ date_format = "Jan 2006"
   title = "The first step in the success or failure of emerging pathogens"
   url = "https://doi.org/10.1073/pnas.2020709117"
   date_start = "2020-11-13"
-  description = "Commentary on our [meta-analysis of cross-species index infections](../publication/2020/rabies_infection_dynamics/)"
+  description = ""
 
 
 [[item]]
@@ -40,6 +50,6 @@ date_format = "Jan 2006"
   title = "Bats are a key source of human viruses — but they’re not special"
   url = "https://www.nature.com/articles/d41586-020-01096-z"
   date_start = "2020-04-14"
-  description = "News coverage of our [zoonotic reservoirs paper](../publication/2020/zoonotic_reservoirs/)"
+  description = ""
 
 +++
