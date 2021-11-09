@@ -1,11 +1,11 @@
 # Theme metadata
-name = "my_theme"
+name = "Mr Robot"
 
 # Is theme light or dark?
 light = false
 
 # Primary
-primary = "rgb(0, 136, 204)"
+primary = "#212529"
 
 # Menu
 menu_primary = "rgb(33, 37, 41)"
