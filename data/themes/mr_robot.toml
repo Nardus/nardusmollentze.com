@@ -6,6 +6,7 @@ light = false
 
 # Primary
 primary = "rgb(0, 136, 204)"
+theme_colour = "#212529"  # Used to colour browser UI in e.g. Safari
 
 # Menu
 menu_primary = "rgb(33, 37, 41)"
