@@ -5,7 +5,7 @@ name = "Mr Robot"
 light = false
 
 # Primary
-primary = "#212529"
+primary = "rgb(0, 136, 204)"
 
 # Menu
 menu_primary = "rgb(33, 37, 41)"
