@@ -1,0 +1,11 @@
+<div class="universal-wrapper pt-3">
+  
+  {{ if (eq .Kind "taxonomy") }}
+    <h1>{{ .Title }}</h1>
+    
+  {{ else }}
+    <h1>Publications tagged "{{ .Title }}" </h1>
+    
+  {{end}}
+  
+</div>

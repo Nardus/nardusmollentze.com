@@ -1,0 +1,40 @@
+{{- define "main" -}}
+
+{{ partial "tag_page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+  <div class="article-style"> {{ . }}</div>
+  {{ end }}
+  
+  {{ if (eq .Kind "taxonomy") }}
+    <!--Simply list tag names (possibly paginated)-->
+    {{ $paginator := .Paginate .Data.Pages }}
+    
+    {{ range $paginator.Pages }}
+      {{ $link := .RelPermalink }}
+      {{ $target := "" }}
+      
+      {{ with .Params.external_link }}
+        {{ $link = . }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ end }}
+      
+      <div>
+        <div class="article-style">
+            <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a>
+        </div>
+      </div>
+    
+      {{ partial "pagination" . }}
+    {{ end }}
+    
+  {{ else }}
+    <!--List publications with this tag-->
+    {{ partial "publication_list.html" . }}
+    
+  {{ end }}
+  
+</div>
+
+{{- end -}}
