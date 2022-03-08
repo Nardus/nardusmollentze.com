@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Viral ecologist | Postdoc
+role: Computational virologist | Postdoc
 
 # Organizations/Affiliations
 organizations:
@@ -19,7 +19,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: Disease ecologist | Postdoc at the MRC - University of Glasgow Centre for Virus Research
+bio: Computational virologist | Postdoc at the MRC - University of Glasgow Centre for Virus Research
 
 interests:
 - Cross-species transmission
@@ -77,4 +77,4 @@ user_groups:
 - Visitors
 ---
 
-I am a viral ecologist studying the dynamics of cross-species transmission and host shifts. Much of my work takes a comparative approach, aiming to discover generalisable patterns which may help us to anticipate and prepare for future outbreaks of infectious disease. I also often use rabies virus as a model system, given it's wide host range, frequent cross-species transmission, and the consequences of these events for public and animal health. As part of my current postdoc with [Daniel Streicker](https://streickerlab.com/) I am leading efforts to determine the most appropriate sampling strategies for discovering unknown viral threats, designing methods to triage newly discovered viruses for further study, and developing models to predict rabies spillover events.
+I am a computational virologist studying the dynamics of cross-species transmission and host shifts. Much of my work takes a comparative approach, aiming to discover generalisable patterns which may help us to anticipate and prepare for future outbreaks of infectious disease. I also often use rabies virus as a model system, given it's wide host range, frequent cross-species transmission, and the consequences of these events for public and animal health. As part of my current postdoc with [Daniel Streicker](https://streickerlab.com/) I am leading efforts to determine the most appropriate sampling strategies for discovering unknown viral threats, designing methods to triage newly discovered viruses for further study, and developing models to predict rabies spillover events.
