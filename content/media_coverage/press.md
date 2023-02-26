@@ -18,6 +18,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "The New York Times"
+  organization_url = ""
+  title = "Which animal viruses could infect people? Computers are racing to find out"
+  url = "https://www.nytimes.com/2022/04/27/science/pandemic-viruses-machine-learning.html"
+  date_start = "2022-04-27"
+  description = ""
+
+
+[[item]]
   organization = "BBC Science Focus"
   organization_url = ""
   title = "Artificial intelligence could help to predict the next virus to jump from animals to humans"
@@ -60,7 +69,7 @@ date_format = "Jan 2006"
   url = "https://www.lemonde.fr/planete/video/2020/05/30/coronavirus-ebola-rage-pourquoi-les-chauves-souris-sont-a-l-origine-de-tant-de-virus_6041272_3244.html"
   date_start = "2020-05-30"
   description = ""
-  youtube_id = "0XFnCj5rVho"
+#  youtube_id = "0XFnCj5rVho"
 
 
 [[item]]

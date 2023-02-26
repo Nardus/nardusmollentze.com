@@ -25,6 +25,24 @@
   weight = 4
 
 [[main]]
+  parent = "Media coverage"
+  name = "Journals"
+  url = "media_coverage/"
+  weight = 1
+    
+[[main]]
+  parent = "Media coverage"
+  name = "Press"
+  url = "media_coverage/#press"
+  weight = 2
+
+[[main]]
+  parent = "Media coverage"
+  name = "Blogs"
+  url = "media_coverage/#blogs"
+  weight = 3
+
+[[main]]
   name = "Contact"
   url = "about/#contact"
   weight = 60

@@ -18,6 +18,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Nature"
+  organization_url = ""
+  title = "Could an algorithm predict the next pandemic?"
+  url = "https://www.nature.com/articles/d41586-022-03358-4"
+  date_start = "2022-10-26"
+  description = ""
+
+
+[[item]]
   organization = "Nature Ecology & Evolution"
   organization_url = ""
   title = "Viral priorities from genomic signatures"
